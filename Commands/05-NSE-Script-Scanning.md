@@ -46,17 +46,13 @@ nmap --script=vuln 192.168.56.101
 
 The complete scan output is available in:
 
-```text
-scans/05-nse-script.txt
-```
+- 📄 **Raw Scan Output:** [05-nse-script.txt](/Scans/05-nse-script.txt)
 
 ---
 
 ## 📸 Screenshot
 
-```text
-screenshots/nse-script.png
-```
+- 🖼️ **Screenshot:** [NSE-Script.png](/Screenshots/nse-script.png)
 
 ---
 
