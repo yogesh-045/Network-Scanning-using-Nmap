@@ -43,17 +43,13 @@ nmap 192.168.56.101
 
 The complete scan output is available in:
 
-```text
-scans/02-port-scan.txt
-```
+- 📄 **Raw Scan Output:** [02-port-scan.txt](/Scans/02-port-scan.txt)
 
 ---
 
 ## 📸 Screenshot
 
-```text
-screenshots/port-scan.png
-```
+- 🖼️ **Screenshot:** [port-scan.png](/Screenshots/port-scan.png)
 
 ---
 
