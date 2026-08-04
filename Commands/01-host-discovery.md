@@ -36,14 +36,10 @@ nmap -sn 192.168.56.0/24
 
 See:
 
-```text
-scans/01-host-discovery.txt
-```
+- 📄 **Raw Scan Output:** [01-host-discovery.txt](/Scans/01-host-discovery.txt)
 
 ---
 
 ## Screenshot
 
-```text
-screenshots/host-discovery.png
-```
+- 🖼️ **Screenshot:** [host-discovery.png](/Screenshots/host-discovery.png)
