@@ -1,0 +1,48 @@
+============================================================
+NMAP HOST DISCOVERY
+============================================================
+
+Date: 2026-08-04
+Tool: Nmap 7.99
+Target: 192.168.56.101
+
+------------------------------------------------------------
+Command Used
+------------------------------------------------------------
+
+nmap -sn 192.168.56.101
+
+------------------------------------------------------------
+Scan Results
+------------------------------------------------------------
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-04 14:55 +0530
+
+Nmap scan report for 192.168.56.101
+
+Host is up.
+
+MAC Address:
+08:00:27:FF:ED:DB (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned.
+
+------------------------------------------------------------
+Summary
+------------------------------------------------------------
+
+Host Status      : UP
+
+Scan Type        : Host Discovery (Ping Scan)
+
+Analysis:
+
+- The target host responded successfully.
+- Host discovery confirmed that the target system is reachable.
+- No port scanning was performed during this scan.
+
+Notes:
+
+- The `-sn` option performs host discovery only.
+- It does not scan TCP or UDP ports.
+- This scan is commonly used before performing detailed enumeration.
