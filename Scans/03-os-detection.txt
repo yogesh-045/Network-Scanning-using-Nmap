@@ -1,11 +1,33 @@
+============================================================
+NMAP OPERATING SYSTEM DETECTION
+============================================================
+
+Date: 2026-07-30
+Tool: Nmap 7.99
+Target: 192.168.56.101
+
+------------------------------------------------------------
+Command Used
+------------------------------------------------------------
+
 nmap -O 192.168.56.101
+
+------------------------------------------------------------
+Scan Results
+------------------------------------------------------------
+
 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-30 23:18 +0530
+
 Stats: 0:01:11 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
 SYN Stealth Scan Timing: About 99.99% done; ETC: 23:19 (0:00:00 remaining)
+
 Warning: 192.168.56.101 giving up on port because retransmission cap hit (10).
+
 Nmap scan report for 192.168.56.101
 Host is up (0.0019s latency).
+
 Not shown: 977 closed tcp ports (reset)
+
 PORT     STATE SERVICE
 21/tcp   open  ftp
 22/tcp   open  ssh
@@ -30,11 +52,45 @@ PORT     STATE SERVICE
 6667/tcp open  irc
 8009/tcp open  ajp13
 8180/tcp open  unknown
-Device type: bridge|VoIP adapter|general purpose
-Running (JUST GUESSING): Oracle Virtualbox (94%), Slirp (94%), AT&T embedded (92%), QEMU (90%)
-OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
-Aggressive OS guesses: Oracle Virtualbox Slirp NAT bridge (94%), AT&T BGW210 voice gateway (92%), QEMU user mode network gateway (90%)
+
+Device type:
+bridge | VoIP adapter | general purpose
+
+Running (JUST GUESSING):
+- Oracle VirtualBox (94%)
+- Slirp (94%)
+- AT&T Embedded (92%)
+- QEMU (90%)
+
+OS CPE:
+cpe:/o:oracle:virtualbox
+cpe:/a:danny_gasparovski:slirp
+cpe:/a:qemu:qemu
+
+Aggressive OS Guesses:
+- Oracle VirtualBox Slirp NAT bridge (94%)
+- AT&T BGW210 Voice Gateway (92%)
+- QEMU User Mode Network Gateway (90%)
+
 No exact OS matches for host (test conditions non-ideal).
 
-OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+OS detection performed.
+
 Nmap done: 1 IP address (1 host up) scanned in 534.56 seconds
+
+------------------------------------------------------------
+Summary
+------------------------------------------------------------
+
+Host Status      : UP
+Open Ports       : 23
+Closed Ports     : 977
+
+OS Detection Result:
+- Exact operating system could not be identified.
+- Nmap suggested Oracle VirtualBox as the most likely environment (94% confidence).
+- Additional possible matches included Slirp, AT&T Embedded, and QEMU.
+
+Notes:
+- OS detection is based on TCP/IP fingerprinting.
+- Results may be inaccurate when firewall rules, virtualization, or limited network responses affect fingerprint accuracy.
