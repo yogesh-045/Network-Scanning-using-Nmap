@@ -47,18 +47,13 @@ sudo nmap -sA 192.168.56.101
 
 The complete scan output is available in:
 
-```text
-scans/06-firewall-detection.txt
-```
+- 📄 **Raw Scan Output:** [06-firewall-detection.txt](/Scans/06-firewall-detection.txt)
 
 ---
 
 ## 📸 Screenshot
 
-```text
-screenshots/firewall-detection.png
-```
-
+- 🖼️ **Screenshot:** [firewall-detection.png](/Screenshots/firewall-detection.png)
 ---
 
 ## 📚 Key Learning
