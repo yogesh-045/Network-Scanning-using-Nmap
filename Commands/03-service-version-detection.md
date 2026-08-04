@@ -46,17 +46,13 @@ nmap -sV 192.168.56.101
 
 The complete scan output is available in:
 
-```text
-scans/03-service-version.txt
-```
+- 📄 **Raw Scan Output:** [04-service-version.txt](/Scans/04-service-version.txt)
 
 ---
 
 ## 📸 Screenshot
 
-```text
-screenshots/service-version.png
-```
+- 🖼️ **Screenshot:** [service-version.png](/Screenshots/service-version.png)
 
 ---
 
