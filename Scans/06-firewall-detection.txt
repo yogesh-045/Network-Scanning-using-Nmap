@@ -1,0 +1,57 @@
+============================================================
+NMAP FIREWALL DETECTION
+============================================================
+
+Date: 2026-08-04
+Tool: Nmap 7.99
+Target: 192.168.56.101
+
+------------------------------------------------------------
+Command Used
+------------------------------------------------------------
+
+sudo nmap -sA 192.168.56.101
+
+------------------------------------------------------------
+Scan Results
+------------------------------------------------------------
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-04 14:40 +0530
+
+Nmap scan report for 192.168.56.101
+Host is up (0.00033s latency).
+
+All 1000 scanned ports on 192.168.56.101 are in ignored states.
+
+Not shown:
+1000 unfiltered tcp ports (reset)
+
+MAC Address:
+08:00:27:FF:ED:DB (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 1.19 seconds
+
+------------------------------------------------------------
+Summary
+------------------------------------------------------------
+
+Host Status      : UP
+
+Scan Type        : TCP ACK Scan (-sA)
+
+Scanned Ports    : 1000
+
+Result           : All scanned ports were reported as unfiltered.
+
+Analysis:
+
+- The target responded with TCP RST packets.
+- No firewall filtering was detected for the scanned ports.
+- ACK packets successfully reached the target host.
+- This indicates that no packet filtering was observed during the scan.
+
+Notes:
+
+- ACK scans are used to identify firewall filtering behavior.
+- They do not determine whether ports are open or closed.
+- The scan classifies ports as filtered or unfiltered based on the target's response.
