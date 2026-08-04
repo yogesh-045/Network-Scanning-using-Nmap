@@ -47,17 +47,13 @@ sudo nmap -O 192.168.56.101
 
 The complete scan output is available in:
 
-```text
-scans/04-os-detection.txt
-```
+- 📄 **Raw Scan Output:** [03-os-detection.txt](/Scans/03-os-detection.txt)
 
 ---
 
 ## 📸 Screenshot
 
-```text
-screenshots/os-detection.png
-```
+- 🖼️ **Screenshot:** [os-detection.png](/Screenshots/os-detection.png)
 
 ---
 
