@@ -53,8 +53,8 @@ The target host responded successfully and was confirmed to be online.
 
 ### Evidence
 
-- Raw Output: `Scans/01-host-discovery.txt`
-- Screenshot: `Screenshots/host-discovery.png`
+- 📄 **Raw Output:** [01-host-discovery.txt](/Scans/01-host-discovery.txt)
+- 🖼️ **Screenshot:** [host-discovery.png](/Screenshots/host-discovery.png)
 
 ---
 
@@ -93,8 +93,8 @@ The target exposes numerous network services, increasing the attack surface. Ser
 
 ### Evidence
 
-- Raw Output: `Scans/02-port-scan.txt`
-- Screenshot: `Screenshots/port-scan.png`
+- 📄 **Raw Output:** [02-port-scan.txt](/Scans/02-port-scan.txt)
+- 🖼️ **Screenshot:** [port-scan.png](/Screenshots/port-scan.png)
 
 ---
 
@@ -124,8 +124,8 @@ Service version detection helps identify outdated software and supports vulnerab
 
 ### Evidence
 
-- Raw Output: `Scans/04-service-version.txt`
-- Screenshot: `Screenshots/service-version.png`
+- 📄 **Raw Output:** [04-service-version.txt](/Scans/04-service-version.txt)
+- 🖼️ **Screenshot:** [service-version.png](/Screenshots/service-version.png)
 
 ---
 
@@ -147,8 +147,8 @@ OS fingerprinting relies on TCP/IP characteristics. Virtualization and network c
 
 ### Evidence
 
-- Raw Output: `Scans/03-os-detection.txt`
-- Screenshot: `Screenshots/os-detection.png`
+- 📄 **Raw Output:** [03-os-detection.txt](/Scans/03-os-detection.txt)
+- 🖼️ **Screenshot:** [os-detection.png](/Screenshots/os-detection.png)
 
 ---
 
@@ -180,9 +180,8 @@ The detected vulnerabilities are expected because the target system is Metasploi
 
 ### Evidence
 
-- Raw Output: `Scans/05-nse-script.txt`
-- Screenshot: `Screenshots/nse-script.png`
-
+- 📄 **Raw Output:** [05-nse-script.txt](S/scans/05-nse-script.txt)
+- 🖼️ **Screenshot:** [nse-script.png](/Screenshots/nse-script.png)
 ---
 
 # 6. Firewall Detection
@@ -203,8 +202,8 @@ The target responded with TCP RST packets, indicating that ACK packets reached t
 
 ### Evidence
 
-- Raw Output: `Scans/06-firewall-detection.txt`
-- Screenshot: `Screenshots/firewall-detection.png`
+- 📄 **Raw Output:** [06-firewall-detection.txt](/Scans/06-firewall-detection.txt)
+- 🖼️ **Screenshot:** [firewall-detection.png](/Screenshots/firewall-detection.png)
 
 ---
 
